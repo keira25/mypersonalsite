@@ -2,5 +2,5 @@ from django.conf.urls import url, include
 from . import views
 
 urlpatterns = [
-    url(r'^photos/', views.index, name='home'),
+    url(r'^$', views.photos, name=''),
 ]
